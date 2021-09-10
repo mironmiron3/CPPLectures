@@ -1,0 +1,3 @@
+C:/Users/miros/CLionProjects/first_lectures/cmake-build-debug/CMakeFiles/first_lectures.dir
+C:/Users/miros/CLionProjects/first_lectures/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/miros/CLionProjects/first_lectures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
