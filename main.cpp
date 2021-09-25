@@ -1,18 +1,13 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
 int main() {
-    int number;
-    do{
-        cout << "Enter a number between 1 and 10:";
-        cin >> number;
-    } while (number < 1 || n > 10);
-    for (int i = 0; i < number; i ++){
-        for (int j = 0; j < number; j ++){
-            cout << " * ";
+    for (int i = 10; i < 35; i += 5) {
+        for (int j = 4; j > 0; j--) {
+            cout << j << endl;
         }
-        cout << endl;
     }
 
     return 0;
