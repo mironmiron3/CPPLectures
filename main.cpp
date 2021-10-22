@@ -1,19 +1,27 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-int main() {
-    int number;
-    do{
-        cout << "Enter a number between 1 and 10:";
-        cin >> number;
-    } while (number < 1 || n > 10);
-    for (int i = 0; i < number; i ++){
-        for (int j = 0; j < number; j ++){
-            cout << " * ";
+void printUppercase(char str[]) {
+    int i = 0;
+    while (str[i] != '\0'){
+        if(isupper(str[i])){
+            cout << str[i] << " ";
         }
-        cout << endl;
+        i ++;
+    }
+}
+void printInReverse(char str[]){
+    string result;
+    for (int i = strlen(str) - 1; i >= 0; i --){
+        cout << str[i];
     }
 
-    return 0;
+
+}
+int main() {
+    printInReverse("Hello");
+
+
 }
